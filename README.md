@@ -185,7 +185,7 @@ Always consult a qualified ophthalmologist for medical advice.
 
 ## 🙏 Acknowledgements
 
-- [APTOS 2019 Kaggle Competition](https://www.kaggle.com/datasets/sovitrath/diabetic-retinopathy-224x224-2019-data?resource=download)
+- (https://www.kaggle.com/datasets/sovitrath/diabetic-retinopathy-224x224-2019-data?resource=download)
 - [MobileNetV2 Paper](https://arxiv.org/abs/1801.04381)
 - [Grad-CAM Paper](https://arxiv.org/abs/1610.02391)
 - TensorFlow / Keras team
