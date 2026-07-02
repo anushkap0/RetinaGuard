@@ -93,35 +93,6 @@ Dense(5, softmax)
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/retinascan-ai.git
-cd retinascan-ai
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Add your trained model
-Place your trained model file in the project root:
-```
-retinascan-ai/
-├── app.py
-├── requirements.txt
-├── README.md
-└── retina_best_v4.keras   ← put your model here
-```
-
-### 4. Run the app
-```bash
-streamlit run app.py
-```
-
-Open your browser at `http://localhost:8501`
 
 ---
 ## Visualizations
