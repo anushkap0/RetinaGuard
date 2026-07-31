@@ -83,13 +83,6 @@ Dense(5, softmax)
 | Dataset | APTOS 2019 (3,662 images) |
 | Train/Val split | 80/20 stratified |
 
-### Results
-
-| Metric | Value |
-|--------|-------|
-| Validation Accuracy | **72.7%** |
-| Validation AUC | **0.946** |
-| Validation Loss | 0.656 |
 
 ---
 
