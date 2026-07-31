@@ -35,7 +35,6 @@ This project uses a fine-tuned **MobileNetV2** CNN to automate DR grading, poten
 - **Confidence scores** for all classes
 - **Clinical advice** based on predicted severity
 - **Interactive Streamlit web UI** — no coding needed to use
-- **72.7% validation accuracy**, **0.946 AUC** on APTOS 2019 dataset
 
 ---
 
