@@ -1,10 +1,6 @@
 # 👁️ RetinaScan AI — Diabetic Retinopathy Detection
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red)
-![Accuracy](https://img.shields.io/badge/Val%20Accuracy-72.7%25-green)
-![AUC](https://img.shields.io/badge/Val%20AUC-0.946-brightgreen)
+
 
 > Deep learning-powered web app for automated detection and grading of **Diabetic Retinopathy** from retinal fundus photographs.
 
