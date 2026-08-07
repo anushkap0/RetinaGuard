@@ -63,9 +63,6 @@ Dense(256, relu) → Dropout(0.3)
     ↓
 Dense(5, softmax)
 ```
-
-### Training Details
-
 | Parameter | Value |
 |-----------|-------|
 | Base model | MobileNetV2 (ImageNet) |
@@ -78,7 +75,15 @@ Dense(5, softmax)
 | Dataset | APTOS 2019 (3,662 images) |
 | Train/Val split | 80/20 stratified |
 
+### Training Details
 
+| Version | Model | Key Changes | Val Accuracy | Val AUC | Status |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| **v1** | EfficientNetB0 (original) | Frozen base, ImageDataGenerator | 5–27% | unstable | ❌ Broken (val shuffling bug) |
+| **v2** | EfficientNetB0 | Unfroze top 30 layers | 49.38% every epoch | 0.64 | ❌ Majority class collapse |
+| **v3** | MobileNetV2 | Fixed generators, class weights | 49.38% stuck | 0.68 | ❌ Still collapsed |
+| **v4** | MobileNetV2 | tf.data pipeline, stratified split | 58.39% | 0.85 | ⚠️ Unstable |
+| **v5** | MobileNetV2 | Fixed preprocessing bug ([-1,1] scaling) | 72.7% | 0.946 | ✅ Best so far |
 ---
 
 
